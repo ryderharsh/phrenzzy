@@ -1,20 +1,20 @@
 .header {
-  height: 85vh;
+  height: 90vh;
   background-image: url(../img/2.jpg);
   background-size: cover;
   background-position: top;
-  border-radius: 25px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center; }
   .header .heading {
     font-family: sans-serif;
-    color: purple;
+    color: blue;
     font-size: 4.5rem; }
     .header .heading__sub {
       font-family: sans-serif;
-      color: purple;
+      color: blue;
       font-size: 3.5rem; }
 
 /*
@@ -35,7 +35,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
 1em = 16px
 */
 .sponsors {
-  width: 100vw;
+  width: 100%;
   background-color: black; }
   .sponsors__head {
     text-align: center;
